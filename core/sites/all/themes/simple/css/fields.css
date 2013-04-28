@@ -90,7 +90,8 @@
  * Named fields
  */
 
-.field-name-body {
+.field-name-body img {
+  padding: 10px;
 }
 
 .field-name-field-image {

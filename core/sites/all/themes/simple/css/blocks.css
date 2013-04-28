@@ -5,32 +5,7 @@
 
 
 .block { /* Block wrapper */
-  margin-bottom: 1.5em;
-}
-
-.block.first { /* The first block in the region */
-}
-
-.block.last { /* The last block in the region */
-}
-
-.block.odd { /* Zebra striping for each block in the region */
-}
-
-.block.even { /* Zebra striping for each block in the region */
-}
-
-h2.block-title { /* Block title */
-}
-
-#block-aggregator-category-1 { /* Block for the latest news items in the first category */
-}
-
-#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
-}
-
-#block-block-1 { /* First block created with "Add block" link: Take Action */
-
+  margin-bottom: 5px;
 }
 
 #block-block-1 ul { /* First block created with "Add block" link: Take Action */
@@ -61,74 +36,45 @@ h2.block-title { /* Block title */
   color: #667;
 }
 
-#block-blog-recent { /* "Recent blog posts" block */
+#block-block-2 {
+  min-height: 40px;
 }
 
-#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+#block-block-2 p {
+  padding: 0;
+  margin: 0;
 }
 
-#block-comment-recent { /* "Recent comments" block */
+.facebook-link {
+  text-indent: -9999px;
+  background: url("../images/f_logo.png") no-repeat;
+  display: block;
+  width: 32px;
+  height: 32px;
 }
 
-#block-forum-active { /* "Active forum topics" block */
+.sidebar-first .region-sidebar-first #block-search-form {
+  border-bottom: none;
+  padding: 10px 0 5px 0;
 }
 
-#block-forum-new { /* "New forum topics" block */
+div.facebook-block {
+  float: left;
 }
 
-#block-locale-language { /* Language switcher block */
+div.fb-like {
+  float: left;
+  margin: 0 0 2px 10px;
 }
 
-#block-menu-menu-NAME { /* Custom menu block */
+div#fb-root {
+  display: none;
 }
 
-#block-node-recent { /* "Recent content" block */
+div.fb-like-box {
+  margin-top: 30px;
 }
 
-#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
-}
-
-#block-poll-recent { /* "Most recent poll" block */
-}
-
-#block-profile-author-information { /* "Author information" block for the profile of the page's author */
-}
-
-#block-search-form { /* "Search form" block */
-}
-
-#block-shortcut-shortcuts { /* "Shortcuts" block */
-}
-
-#block-statistics-popular { /* "Popular content" block */
-}
-
-#block-system-main-menu { /* "Main menu" block */
-}
-
-#block-system-management { /* "Management" block for Drupal management menu */
-}
-
-#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
-}
-
-#block-system-user-menu { /* "User menu" block for Drupal user menu */
-}
-
-#block-system-help { /* "System help" block */
-}
-
-#block-system-main { /* "Main page content" block */
-}
-
-#block-system-powered-by { /* "Powered by Drupal" block */
-}
-
-#block-user-login { /* "User login form" block */
-}
-
-#block-user-new { /* "Who's new" block for a list of the newest users */
-}
-
-#block-user-online { /* "Who's online" block for a list of the online users */
+#block-block-3 {
+  margin-top: 10px;
 }

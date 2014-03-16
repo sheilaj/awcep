@@ -57,8 +57,8 @@
 }
 
 .views-row {
-  padding: 15px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 25px 0 0 0;
+  border-bottom: 1px solid #ddd;
 }
 
 .views-row-first {
@@ -73,4 +73,17 @@
 
 .views-table td.views-field {
   padding: 5px 25px 5px 5px;
+}
+
+.view-id-news h2 a:hover,
+.view-id-news h2 a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.view-id-news ul.links {
+  float: right;
+  background: #eee;
+  padding: 5px 0 5px 12px;
+  margin: 0;
 }
